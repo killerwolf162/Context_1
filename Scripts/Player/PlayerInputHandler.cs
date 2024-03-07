@@ -28,4 +28,19 @@ public class PlayerInputHandler : MonoBehaviour
         controller.OnMove(input);
     }
 
+    public void OnPunch(InputAction.CallbackContext input)
+    {
+        controller.OnPunch(input);
+    }
+
+    public void OnKick(InputAction.CallbackContext input)
+    {
+        controller.OnKick(input);
+    }
+
+    public void OnSpecial(InputAction.CallbackContext input)
+    {
+        controller.OnSpecial(input);
+    }
+
 }

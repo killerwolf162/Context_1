@@ -152,6 +152,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 672339313422305762, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
+      propertyPath: m_Name
+      value: Punch2_hitbox
+      objectReference: {fileID: 0}
     - target: {fileID: 2636313801996346850, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
       propertyPath: move_speed
       value: 6
@@ -208,6 +212,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.002
       objectReference: {fileID: 0}
+    - target: {fileID: 7287326005203450594, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
+      propertyPath: m_Name
+      value: Special2_hitbox
+      objectReference: {fileID: 0}
     - target: {fileID: 7478808194528953915, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
       propertyPath: m_Size.x
       value: 0.3
@@ -224,9 +232,37 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.05
       objectReference: {fileID: 0}
+    - target: {fileID: 7956127810681447556, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
+      propertyPath: kick
+      value: 
+      objectReference: {fileID: -8657130438487667640, guid: f3f70156c7aa9b846a69af4a25dd742f, type: 3}
+    - target: {fileID: 7956127810681447556, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
+      propertyPath: punch
+      value: 
+      objectReference: {fileID: 4995585850126899440, guid: f3f70156c7aa9b846a69af4a25dd742f, type: 3}
+    - target: {fileID: 7956127810681447556, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
+      propertyPath: special
+      value: 
+      objectReference: {fileID: -971891358778943484, guid: f3f70156c7aa9b846a69af4a25dd742f, type: 3}
+    - target: {fileID: 7956127810681447556, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
+      propertyPath: movement
+      value: 
+      objectReference: {fileID: -6183338939412175868, guid: f3f70156c7aa9b846a69af4a25dd742f, type: 3}
+    - target: {fileID: 8628507200007387880, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
+      propertyPath: m_Name
+      value: Kick2_hitbox
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040558283259661524, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
+      propertyPath: m_Size.x
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9040558283259661524, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
+      propertyPath: m_Offset.x
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 9101832188949761972, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9101832188949761972, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
       propertyPath: m_LocalScale.x
