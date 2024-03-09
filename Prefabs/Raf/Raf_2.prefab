@@ -194,7 +194,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5895474315005720202, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
       propertyPath: m_Name
-      value: Mini_Raf_2
+      value: Raf_2
       objectReference: {fileID: 0}
     - target: {fileID: 5895474315005720202, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
       propertyPath: m_TagString

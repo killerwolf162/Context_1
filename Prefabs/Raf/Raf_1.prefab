@@ -91,7 +91,7 @@ GameObject:
   - component: {fileID: 5011012032294779225}
   - component: {fileID: 7956127810681447556}
   m_Layer: 0
-  m_Name: Mini_Raf
+  m_Name: Raf_1
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
