@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 6885251348023537642}
   - component: {fileID: 7478808194528953915}
+  - component: {fileID: 4878571751180099647}
   m_Layer: 0
   m_Name: Punch1_hitbox
-  m_TagString: Untagged
+  m_TagString: Hitbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77,6 +78,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &4878571751180099647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672339313422305762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 842327f1733bea04f87be1f4c92907aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5895474315005720202
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,9 +277,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2633280937813920338}
   - component: {fileID: 9040558283259661524}
+  - component: {fileID: 1713665820599069504}
   m_Layer: 0
   m_Name: Special1_hitbox
-  m_TagString: Untagged
+  m_TagString: Hitbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -331,6 +345,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1713665820599069504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7287326005203450594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 099f26ffb0c10e145836f70e53327280, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8628507200007387880
 GameObject:
   m_ObjectHideFlags: 0
@@ -341,9 +367,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4545080041639303324}
   - component: {fileID: 459878389507380957}
+  - component: {fileID: 636988226869734601}
   m_Layer: 0
   m_Name: Kick1_hitbox
-  m_TagString: Untagged
+  m_TagString: Hitbox
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -408,3 +435,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &636988226869734601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8628507200007387880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 842327f1733bea04f87be1f4c92907aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

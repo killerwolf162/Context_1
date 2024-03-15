@@ -15,11 +15,13 @@ public class PlayerController : MonoBehaviour
 
     public int max_health;
     public int current_health;
+    public HealthBar health_bar;
 
     private BoxCollider2D punch_hitbox;
     private BoxCollider2D kick_hitbox;
     private BoxCollider2D special_hitbox;
 
+    private float cool_down_timer = 0;
 
     private Vector3 move;
 
@@ -33,19 +35,28 @@ public class PlayerController : MonoBehaviour
             punch_hitbox = GameObject.Find("Punch1_hitbox").GetComponent<BoxCollider2D>();
             kick_hitbox = GameObject.Find("Kick1_hitbox").GetComponent<BoxCollider2D>();
             special_hitbox = GameObject.Find("Special1_hitbox").GetComponent<BoxCollider2D>();
+            health_bar = GameObject.FindGameObjectWithTag("HealthBar_P1").GetComponent<HealthBar>();
         }
         if(this.gameObject.tag == "Player_2")
         {
             punch_hitbox = GameObject.Find("Punch2_hitbox").GetComponent<BoxCollider2D>();
             kick_hitbox = GameObject.Find("Kick2_hitbox").GetComponent<BoxCollider2D>();
             special_hitbox = GameObject.Find("Special2_hitbox").GetComponent<BoxCollider2D>();
+            health_bar = GameObject.FindGameObjectWithTag("HealthBar_P2").GetComponent<HealthBar>();
         }
 
+        
+        health_bar.set_max_health(max_health);
     }
 
     private void FixedUpdate()
     {
         rig.transform.Translate(move * Time.deltaTime * move_speed);
+
+        if( cool_down_timer > 0)
+        {
+            cool_down_timer -= Time.deltaTime;
+        }
     }
 
     public void OnMove(InputAction.CallbackContext input_value)
@@ -56,12 +67,16 @@ public class PlayerController : MonoBehaviour
 
     public void OnPunch(InputAction.CallbackContext input)
     {
-        if (input.ReadValue<float>() > 0)
+        if (input.ReadValue<float>() > 0 && cool_down_timer <= 0)
         {
             punch_hitbox.enabled = true;
             Debug.Log("I'm Punshing");
+            cool_down_timer = 1;
         }
-
+        else if(input.ReadValue<float>() > 0 && cool_down_timer > 0)
+        {
+            Debug.Log("im on cooldown");
+        }
         else
         {
             Debug.Log("I'm not punshing");
@@ -71,10 +86,15 @@ public class PlayerController : MonoBehaviour
 
     public void OnKick(InputAction.CallbackContext input)
     {
-        if (input.ReadValue<float>() > 0)
+        if (input.ReadValue<float>() > 0 && cool_down_timer <= 0)
         {
             kick_hitbox.enabled = true;
             Debug.Log("I'm kicking");
+            cool_down_timer = 1;
+        }
+        else if (input.ReadValue<float>() > 0 && cool_down_timer > 0)
+        {
+            Debug.Log("im on cooldown");
         }
         else
         {
@@ -85,10 +105,16 @@ public class PlayerController : MonoBehaviour
 
     public void OnSpecial(InputAction.CallbackContext input)
     {
-        if (input.ReadValue<float>() > 0)
+
+        if (input.ReadValue<float>() > 0 && cool_down_timer <= 0)
         {
             special_hitbox.enabled = true;
             Debug.Log("I'm using special");
+            cool_down_timer = 1;
+        }
+        else if (input.ReadValue<float>() > 0 && cool_down_timer > 0)
+        {
+            Debug.Log("im on cooldown");
         }
         else
         {
@@ -97,30 +123,18 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void take_damage(int damage)
     {
-        if (this.gameObject.tag == "Player")
+        if(move.x >= 0)
         {
-            if (collision.CompareTag("Player_2"))
-            {
-                Debug.Log("Player 1 has been hit");
-                //take_damage(1);
-            }
+            current_health -= damage;
+            health_bar.set_health(current_health);
         }
-        if(this.gameObject.tag == "Player_2")
-
+        else if(move.x < 0)
         {
-            if (collision.CompareTag("Player"))
-            {
-                Debug.Log("Player 2 has been hit");
-                //take_damage(1);
-            }
+            Debug.Log("I blocked");
         }
-    }
 
-    private void take_damage(int damage)
-    {
-        current_health -= damage;
     }
 
 
