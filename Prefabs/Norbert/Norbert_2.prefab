@@ -53,29 +53,37 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2879101957560960682, guid: 7c57a8dfc8e4b334c906eee83f4c955a, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 2879101957560960682, guid: 7c57a8dfc8e4b334c906eee83f4c955a, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 0.64
       objectReference: {fileID: 0}
     - target: {fileID: 3784016800058941214, guid: 7c57a8dfc8e4b334c906eee83f4c955a, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -9095717837082945937, guid: 7861d4a685f023545ba40fe0d6639973, type: 3}
+      objectReference: {fileID: 1037263265, guid: a7e584e60437ada4abb6d5309ffad3ba, type: 3}
     - target: {fileID: 3784016800058941214, guid: 7c57a8dfc8e4b334c906eee83f4c955a, type: 3}
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3784016800058941214, guid: 7c57a8dfc8e4b334c906eee83f4c955a, type: 3}
       propertyPath: m_Color.g
-      value: 0.5990566
+      value: 0.9009434
       objectReference: {fileID: 0}
     - target: {fileID: 3784016800058941214, guid: 7c57a8dfc8e4b334c906eee83f4c955a, type: 3}
       propertyPath: m_Color.r
-      value: 0.6022983
+      value: 0.91793936
       objectReference: {fileID: 0}
     - target: {fileID: 4063094582716303839, guid: 7c57a8dfc8e4b334c906eee83f4c955a, type: 3}
       propertyPath: m_Name
       value: Norbert_2
       objectReference: {fileID: 0}
+    - target: {fileID: 4896420115606228351, guid: 7c57a8dfc8e4b334c906eee83f4c955a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: e27d981a68f008a4b98923765c454774, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

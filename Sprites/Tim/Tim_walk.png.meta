@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4b97948a73a128444833007c7a6a2b19
+guid: 2448c10cad6b20a47920274d35305678
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,233 +110,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tim bushman Punch_0
+      name: PlaceHolder_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 90
-        height: 74
+        width: 52
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      physicsShape:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de567d6f3637c634ca981cbbd1d69efe
-      internalID: -863633941
+      spriteID: 22f1f8ac511ddeb49934ca0729b5bce0
+      internalID: -669859296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tim bushman Punch_1
+      name: PlaceHolder_1
       rect:
         serializedVersion: 2
-        x: 90
+        x: 52
         y: 0
-        width: 90
-        height: 74
+        width: 52
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      physicsShape:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1be141bb6d64cd04190ef3994ed767cf
-      internalID: -1291717566
+      spriteID: 765d15dd21d1625468baf3c093872979
+      internalID: -331296818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tim bushman Punch_2
+      name: PlaceHolder_2
       rect:
         serializedVersion: 2
-        x: 180
+        x: 104
         y: 0
-        width: 90
-        height: 74
+        width: 52
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      physicsShape:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c9cab99d8898134e9b84a08ebaf2f27
-      internalID: 1754665776
+      spriteID: c62e3e6082da6c3428a4efb0a2c111d1
+      internalID: 1647700772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tim bushman Punch_3
+      name: PlaceHolder_3
       rect:
         serializedVersion: 2
-        x: 270
+        x: 156
         y: 0
-        width: 90
-        height: 74
+        width: 52
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      physicsShape:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c02bf364c81acb4582736eda1320ed1
-      internalID: -1879143321
+      spriteID: efefe5b528025fd4a9c9d35ed8816b14
+      internalID: -1113428293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tim bushman Punch_4
+      name: PlaceHolder_4
       rect:
         serializedVersion: 2
-        x: 360
+        x: 208
         y: 0
-        width: 90
-        height: 74
+        width: 52
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      physicsShape:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 536f369ad2cd7504492a97b29d2fef37
-      internalID: 57725761
+      spriteID: 55da46f6c8865c94b98094e3799da25d
+      internalID: 1743138477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tim bushman Punch_5
+      name: PlaceHolder_5
       rect:
         serializedVersion: 2
-        x: 450
+        x: 260
         y: 0
-        width: 90
-        height: 74
+        width: 52
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      physicsShape:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffb468f1cfbf9a845bf18dbe60ed41d2
-      internalID: 1367579128
+      spriteID: d60c792e8a17a694ab42ec7dda573c78
+      internalID: 1644740870
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tim bushman Punch_6
+      name: PlaceHolder_6
       rect:
         serializedVersion: 2
-        x: 540
+        x: 312
         y: 0
-        width: 90
-        height: 74
+        width: 52
+        height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      physicsShape:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebdae09a91397514194b31ca0ffd2ce9
-      internalID: -664869686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tim bushman Punch_7
-      rect:
-        serializedVersion: 2
-        x: 630
-        y: 0
-        width: 90
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      physicsShape:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e0d821fa641f424590f0d0b9427a1ba
-      internalID: -841570139
+      spriteID: ee6552e8ef18de54dbe673807b811dbb
+      internalID: 466605254
       vertices: []
       indices: 
       edges: []
@@ -352,14 +267,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tim bushman Punch_0: -863633941
-      tim bushman Punch_1: -1291717566
-      tim bushman Punch_2: 1754665776
-      tim bushman Punch_3: -1879143321
-      tim bushman Punch_4: 57725761
-      tim bushman Punch_5: 1367579128
-      tim bushman Punch_6: -664869686
-      tim bushman Punch_7: -841570139
+      PlaceHolder_0: -669859296
+      PlaceHolder_1: -331296818
+      PlaceHolder_2: 1647700772
+      PlaceHolder_3: -1113428293
+      PlaceHolder_4: 1743138477
+      PlaceHolder_5: 1644740870
+      PlaceHolder_6: 466605254
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
