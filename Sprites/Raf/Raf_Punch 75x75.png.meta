@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 13505752b9a7e974fa2855cb129ffbcc
+guid: 168eff2b0f7f7e94697c16cc74bc1b72
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Raf_Punch 75x75_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 080d67d931d1c8440973d8cc0effc578
+      internalID: 1231265627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raf_Punch 75x75_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd89335c98eb19346add742a9030a673
+      internalID: -413113171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raf_Punch 75x75_2
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e8d3e1b73e82f42bcc05b1cd6c44a0
+      internalID: 128983500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raf_Punch 75x75_3
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 1
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27bf2c979c11bc4da216690be015225
+      internalID: 49881739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raf_Punch 75x75_4
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2940e882639e64c8ee8cdf31300f9e
+      internalID: 919223686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Raf_Punch 75x75_0: 1231265627
+      Raf_Punch 75x75_1: -413113171
+      Raf_Punch 75x75_2: 128983500
+      Raf_Punch 75x75_3: 49881739
+      Raf_Punch 75x75_4: 919223686
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

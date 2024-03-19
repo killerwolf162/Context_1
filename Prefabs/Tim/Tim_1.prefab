@@ -25,6 +25,10 @@ PrefabInstance:
       value: Tim_1
       objectReference: {fileID: 0}
     - target: {fileID: 6714985115817861195, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6714985115817861195, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -34909320, guid: 4f226abfab509d042a4f0f71bdf8a8ac, type: 3}

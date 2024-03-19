@@ -10,7 +10,6 @@ public class PlayerController : MonoBehaviour
     //movement
     [SerializeField]
     private float move_speed;
-    private Vector2 move_input;
     private Rigidbody2D rig;
 
     public int max_health;
@@ -23,13 +22,15 @@ public class PlayerController : MonoBehaviour
 
     private BoxCollider2D punch_hitbox;
     private BoxCollider2D kick_hitbox;
-    private BoxCollider2D special_hitbox;
+    public BoxCollider2D special_hitbox;
 
-    private Animator anim;
+    public Animator anim;
+
+    private RafSpecialAttack raf_special;
 
     [SerializeField]
     private float cool_down_timer = 0;
-    private float idle_timer = 0f;
+    public float idle_timer = 0f;
 
     private Vector3 move;
 
@@ -56,6 +57,10 @@ public class PlayerController : MonoBehaviour
             health_bar = GameObject.FindGameObjectWithTag("HealthBar_P2").GetComponent<HealthBar>();
             special_bar = GameObject.FindGameObjectWithTag("SpecialBar_P2").GetComponent<SpecialBar>();
         }
+        if(this.gameObject.name == "Raf_1(Clone)" || this.gameObject.name == "Raf_2(Clone)")
+        {
+            raf_special = GetComponent<RafSpecialAttack>();
+        }
 
         special_bar.set_special(current_special);
         health_bar.set_max_health(max_health);
@@ -65,10 +70,22 @@ public class PlayerController : MonoBehaviour
     {
         rig.transform.Translate(move * Time.deltaTime * move_speed);
 
-        idle_timer += Time.deltaTime;
+        idle_timer += Time.deltaTime/2;
 
-        if(idle_timer >= 0.5f)
-            anim.SetInteger("AnimState", 0);
+        if(idle_timer >= 0.1f)
+        {
+            if (move.x > 0 || move.x < 0)
+                idle_timer = -1;
+            if (anim.GetInteger("AnimState") == 4)
+                idle_timer = 0;
+            else
+            {
+                anim.SetInteger("AnimState", 0);
+                idle_timer = 0;
+            }
+
+        }
+
 
         if ( cool_down_timer > 0)
         {
@@ -79,54 +96,61 @@ public class PlayerController : MonoBehaviour
 
     public void OnMove(InputAction.CallbackContext input_value)
     {
-        idle_timer = 0;
+        idle_timer = -0.2f;
         idle_timer -= Time.deltaTime;
         Vector2 movement = input_value.ReadValue<Vector2>();
+
+        if (move.x < 0)
+        {
+            anim.SetBool("IsWalkingBackwards", true);
+            anim.SetInteger("AnimState", 1);
+        }
+
+        if (move.x > 0)
+        {
+            anim.SetBool("IsWalkingBackwards", false);
+            anim.SetInteger("AnimState", 1);
+        }
+
         move = new Vector3(movement.x, 0, movement.y);
-        anim.SetInteger("AnimState", 1);
+
     }
 
     public void OnPunch(InputAction.CallbackContext input)
     {
         if (input.ReadValue<float>() > 0 && cool_down_timer <= 0)
         {
-            idle_timer = 0;
-            idle_timer -= Time.deltaTime;
             punch_hitbox.enabled = true;
-            Debug.Log("I'm Punshing");
-            anim.SetInteger("AnimState", 2);
-            cool_down_timer = 1;
+
+            idle_timer = -0;
+            idle_timer -= Time.deltaTime;
             
+            anim.SetInteger("AnimState", 2);
+            cool_down_timer = 1; 
         }
-        else if(input.ReadValue<float>() > 0 && cool_down_timer > 0)
+        if ((input.ReadValue<float>() <= 0))
         {
-            Debug.Log("im on cooldown");
-        }
-        else
-        {
-            Debug.Log("I'm not punshing");
             punch_hitbox.enabled = false;
         }
+
+
     }
 
     public void OnKick(InputAction.CallbackContext input)
     {
         if (input.ReadValue<float>() > 0 && cool_down_timer <= 0)
         {
+            kick_hitbox.enabled = true;
+
             idle_timer = 0;
             idle_timer -= Time.deltaTime;
-            kick_hitbox.enabled = true;
-            Debug.Log("I'm kicking");
+            
             anim.SetInteger("AnimState", 3);
             cool_down_timer = 1;
         }
-        else if (input.ReadValue<float>() > 0 && cool_down_timer > 0)
+
+        if ((input.ReadValue<float>() <= 0))
         {
-            Debug.Log("im on cooldown");
-        }
-        else
-        {
-            Debug.Log("I'm not kicking");
             kick_hitbox.enabled = false;
         }
     }
@@ -134,30 +158,24 @@ public class PlayerController : MonoBehaviour
     public void OnSpecial(InputAction.CallbackContext input)
     {
 
-        if (input.ReadValue<float>() > 0 && cool_down_timer <= 0 && current_special >= 3)
+        if (input.ReadValue<float>() > 0 && cool_down_timer <= 0 && current_special == 3)
         {
+            special_hitbox.enabled = true;
+
             idle_timer = 0;
             idle_timer -= Time.deltaTime;
-            special_hitbox.enabled = true;
-            Debug.Log("I'm using special");
             anim.SetInteger("AnimState", 4);
+
+            if (raf_special != null)
+            {
+                raf_special.raf_special_attack();
+            }
+
             cool_down_timer = 1;
             current_special = 0;
             special_bar.set_special(current_special);
         }
-        else if(input.ReadValue<float>() > 0 && current_special < 3)
-        {
-            Debug.Log("Im dont have enough special progress");
-        }
-        else if (input.ReadValue<float>() > 0 && cool_down_timer > 0)
-        {
-            Debug.Log("im on cooldown");
-        }
-        else
-        {
-            Debug.Log("I'm not using special");
-            special_hitbox.enabled = false;
-        }
+        
     }
 
     public void take_damage(int damage)
@@ -169,7 +187,6 @@ public class PlayerController : MonoBehaviour
         }
         else if(move.x < 0)
         {
-            Debug.Log("I blocked");
             current_special += 1;
             special_bar.set_special(current_special);
         }

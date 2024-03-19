@@ -25,6 +25,10 @@ PrefabInstance:
       value: Norbert_1
       objectReference: {fileID: 0}
     - target: {fileID: 6714985115817861195, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6714985115817861195, guid: 6003b9a38f6109b42bb58a501e524278, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 1037263265, guid: a7e584e60437ada4abb6d5309ffad3ba, type: 3}

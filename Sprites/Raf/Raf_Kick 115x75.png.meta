@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c838d0739f7cd6141a0864ffef6a692b
+guid: 537e03f2cd6001944ae296b0b3d4ff3a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Insert coin sprite_0
+      name: Raf_Kick 115x75_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 90
-        height: 15
+        x: 14
+        y: 1
+        width: 40
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acc22f0de3c6a22448cb51c1102bc74f
-      internalID: -768726743
+      spriteID: d04805a65d16be648b4b0f3dc15625c4
+      internalID: -120458248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Insert coin sprite_1
+      name: Raf_Kick 115x75_1
       rect:
         serializedVersion: 2
-        x: 90
+        x: 134
         y: 0
-        width: 90
-        height: 15
+        width: 43
+        height: 55
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f40ded79e6bc37f4faec5b9dcb86ce50
-      internalID: -1387500462
+      spriteID: 61b7fdef27e117743aa90ed3fc3e2382
+      internalID: -1118750180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Insert coin sprite_2
+      name: Raf_Kick 115x75_2
       rect:
         serializedVersion: 2
-        x: 180
+        x: 259
         y: 0
-        width: 90
-        height: 15
+        width: 49
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01313783121fdca4eae420a2664051da
-      internalID: 1443047953
+      spriteID: c7d2ae8bd8b456b448334dc4680b9b8f
+      internalID: 1552041267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Insert coin sprite_3
+      name: Raf_Kick 115x75_3
       rect:
         serializedVersion: 2
-        x: 270
+        x: 373
         y: 0
-        width: 90
-        height: 15
+        width: 87
+        height: 53
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +187,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f5e47566ccaa754cbff0af8622b3ec3
-      internalID: 845815814
+      spriteID: 21062c53890f0c24f8d0506acf4acfa5
+      internalID: 1752355325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raf_Kick 115x75_4
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 0
+        width: 75
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c29146685817f408295b78c350b25c
+      internalID: 1284772082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raf_Kick 115x75_5
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 0
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab96943f34f3b542bc2163b2daf195e
+      internalID: 1363174696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raf_Kick 115x75_6
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 0
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a04089388e75f845a8d8cb5f10b4d32
+      internalID: -520788239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Raf_Kick 115x75_7
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8b9fcfd4965c0419097baed4bc70e1
+      internalID: -1011457697
       vertices: []
       indices: 
       edges: []
@@ -204,10 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Insert coin sprite_0: -768726743
-      Insert coin sprite_1: -1387500462
-      Insert coin sprite_2: 1443047953
-      Insert coin sprite_3: 845815814
+      Raf_Kick 115x75_0: -120458248
+      Raf_Kick 115x75_1: -1118750180
+      Raf_Kick 115x75_2: 1552041267
+      Raf_Kick 115x75_3: 1752355325
+      Raf_Kick 115x75_4: 1284772082
+      Raf_Kick 115x75_5: 1363174696
+      Raf_Kick 115x75_6: -520788239
+      Raf_Kick 115x75_7: -1011457697
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
