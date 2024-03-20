@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: fbfad5fa7f7c63e4bb18dba53ea49ee6
+=======
+guid: e56fd694fa08c5648be9157d64288246
+>>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -20,12 +24,19 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+<<<<<<< HEAD
     flipGreenChannel: 0
+=======
+>>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+<<<<<<< HEAD
   ignoreMipmapLimit: 0
+=======
+  ignoreMasterTextureLimit: 0
+>>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -43,7 +54,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
   spriteMode: 2
+=======
+  spriteMode: 1
+>>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -64,7 +79,10 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+<<<<<<< HEAD
   swizzle: 50462976
+=======
+>>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -77,7 +95,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
     ignorePlatformSupport: 0
+=======
+>>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -90,7 +111,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
     ignorePlatformSupport: 0
+=======
+>>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -103,11 +127,15 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+<<<<<<< HEAD
     ignorePlatformSupport: 0
+=======
+>>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
+<<<<<<< HEAD
     sprites:
     - serializedVersion: 2
       name: Raf_Idle 75x75_0
@@ -235,6 +263,9 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+=======
+    sprites: []
+>>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
     outline: []
     physicsShape: []
     bones: []
@@ -245,6 +276,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< HEAD
     nameFileIdTable:
       Raf_Idle 75x75_0: 2119744965
       Raf_Idle 75x75_1: 250941496
@@ -254,6 +286,12 @@ TextureImporter:
       Raf_Idle 75x75_5: 1089501764
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
+=======
+    nameFileIdTable: {}
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+>>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   userData: 
   assetBundleName: 
   assetBundleVariant: 
