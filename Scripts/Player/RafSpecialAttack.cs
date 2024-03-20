@@ -42,16 +42,16 @@ public class RafSpecialAttack : MonoBehaviour
         if (this.gameObject.tag == "Player")
         {
             controller.idle_timer = 0;
-            this.gameObject.transform.position += new Vector3(-0.1f, 0, 0);
-            yield return new WaitForSeconds(0.005f);
+            this.gameObject.transform.position += new Vector3(-0.2f, 0, 0);
+            yield return new WaitForSeconds(0.002f);
             StartCoroutine(move_bike());
         }
 
         if (this.gameObject.tag == "Player_2")
         {
             controller.idle_timer = 0;
-            this.gameObject.transform.position += new Vector3(0.1f, 0, 0);
-            yield return new WaitForSeconds(0.005f);
+            this.gameObject.transform.position += new Vector3(0.2f, 0, 0);
+            yield return new WaitForSeconds(0.002f);
             StartCoroutine(move_bike());
         }
     }

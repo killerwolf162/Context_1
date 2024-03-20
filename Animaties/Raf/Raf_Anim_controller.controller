@@ -188,7 +188,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Raf_Kick
-  m_Speed: 0.7
+  m_Speed: 0.65
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 5685350177368999049}
@@ -216,7 +216,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Raf_Punch
-  m_Speed: 0.7
+  m_Speed: 0.65
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 3581480175994081235}
@@ -308,7 +308,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 3c930013dc5be4a4d8c5bc86ed18ba15, type: 2}
+  m_Motion: {fileID: 7400000, guid: e5c824210a4729843a557d67677ebd87, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -431,7 +431,7 @@ AnimatorState:
   m_MirrorParameterActive: 1
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 3351134bcd8881e41ae1af00d4dfec1f, type: 2}
+  m_Motion: {fileID: 7400000, guid: bb7cbd8d1f4d0c84294440fd3deea534, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: IsWalkingBackwards

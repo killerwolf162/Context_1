@@ -80,6 +80,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.6666667
       objectReference: {fileID: 0}
+    - target: {fileID: 3784016800058941214, guid: 7c57a8dfc8e4b334c906eee83f4c955a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4063094582716303839, guid: 7c57a8dfc8e4b334c906eee83f4c955a, type: 3}
       propertyPath: m_Name
       value: Norbert_2

@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 537e03f2cd6001944ae296b0b3d4ff3a
-=======
-guid: 4812a2fd044fc5040bf4732634117072
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -24,19 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-<<<<<<< HEAD
     flipGreenChannel: 0
-=======
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-<<<<<<< HEAD
   ignoreMipmapLimit: 0
-=======
-  ignoreMasterTextureLimit: 0
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -50,15 +39,11 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
   spriteMode: 2
-=======
-  spriteMode: 1
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -78,27 +63,21 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
-<<<<<<< HEAD
+  applyGammaDecoding: 1
   swizzle: 50462976
-=======
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
     ignorePlatformSupport: 0
-=======
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -106,15 +85,12 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
     ignorePlatformSupport: 0
-=======
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -122,29 +98,25 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
     ignorePlatformSupport: 0
-=======
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
     sprites:
     - serializedVersion: 2
       name: Raf_Kick 115x75_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 1
-        width: 40
-        height: 59
+        x: 0
+        y: 0
+        width: 115
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d04805a65d16be648b4b0f3dc15625c4
-      internalID: -120458248
+      spriteID: f6a39336f8dfc70469ad2189658a07c7
+      internalID: -744802188
       vertices: []
       indices: 
       edges: []
@@ -162,10 +134,10 @@ TextureImporter:
       name: Raf_Kick 115x75_1
       rect:
         serializedVersion: 2
-        x: 134
+        x: 115
         y: 0
-        width: 43
-        height: 55
+        width: 115
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61b7fdef27e117743aa90ed3fc3e2382
-      internalID: -1118750180
+      spriteID: 0d92611a19161194e94d077a7934e724
+      internalID: -997470240
       vertices: []
       indices: 
       edges: []
@@ -183,10 +155,10 @@ TextureImporter:
       name: Raf_Kick 115x75_2
       rect:
         serializedVersion: 2
-        x: 259
+        x: 230
         y: 0
-        width: 49
-        height: 50
+        width: 115
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7d2ae8bd8b456b448334dc4680b9b8f
-      internalID: 1552041267
+      spriteID: 17114d733cc7c474f957491962b15569
+      internalID: 626363523
       vertices: []
       indices: 
       edges: []
@@ -204,10 +176,10 @@ TextureImporter:
       name: Raf_Kick 115x75_3
       rect:
         serializedVersion: 2
-        x: 373
+        x: 345
         y: 0
-        width: 87
-        height: 53
+        width: 115
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21062c53890f0c24f8d0506acf4acfa5
-      internalID: 1752355325
+      spriteID: dab35359c8d4b86409ceb9c651f9c97c
+      internalID: -997142968
       vertices: []
       indices: 
       edges: []
@@ -225,10 +197,10 @@ TextureImporter:
       name: Raf_Kick 115x75_4
       rect:
         serializedVersion: 2
-        x: 489
+        x: 460
         y: 0
-        width: 75
-        height: 53
+        width: 115
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87c29146685817f408295b78c350b25c
-      internalID: 1284772082
+      spriteID: c4a15c44a127c1542b51da026363b857
+      internalID: -742730054
       vertices: []
       indices: 
       edges: []
@@ -246,10 +218,10 @@ TextureImporter:
       name: Raf_Kick 115x75_5
       rect:
         serializedVersion: 2
-        x: 604
+        x: 575
         y: 0
-        width: 49
-        height: 50
+        width: 115
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,8 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bab96943f34f3b542bc2163b2daf195e
-      internalID: 1363174696
+      spriteID: 8b847b361d8930c4fbf75c6e8678b24d
+      internalID: -1555725270
       vertices: []
       indices: 
       edges: []
@@ -267,10 +239,10 @@ TextureImporter:
       name: Raf_Kick 115x75_6
       rect:
         serializedVersion: 2
-        x: 709
+        x: 690
         y: 0
-        width: 43
-        height: 55
+        width: 115
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,8 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a04089388e75f845a8d8cb5f10b4d32
-      internalID: -520788239
+      spriteID: 9d88e12fbbb33664796ebbb19a44d1fb
+      internalID: -1436042284
       vertices: []
       indices: 
       edges: []
@@ -288,10 +260,10 @@ TextureImporter:
       name: Raf_Kick 115x75_7
       rect:
         serializedVersion: 2
-        x: 819
-        y: 1
-        width: 40
-        height: 59
+        x: 805
+        y: 0
+        width: 115
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,43 +271,33 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e8b9fcfd4965c0419097baed4bc70e1
-      internalID: -1011457697
+      spriteID: 5fd7c0e2b94934d4f817d11ae48f1760
+      internalID: -2101282617
       vertices: []
       indices: 
       edges: []
       weights: []
-=======
-    sprites: []
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 148fb26c10446e44d9e6195884081ffb
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
     nameFileIdTable:
-      Raf_Kick 115x75_0: -120458248
-      Raf_Kick 115x75_1: -1118750180
-      Raf_Kick 115x75_2: 1552041267
-      Raf_Kick 115x75_3: 1752355325
-      Raf_Kick 115x75_4: 1284772082
-      Raf_Kick 115x75_5: 1363174696
-      Raf_Kick 115x75_6: -520788239
-      Raf_Kick 115x75_7: -1011457697
+      Raf_Kick 115x75_0: -744802188
+      Raf_Kick 115x75_1: -997470240
+      Raf_Kick 115x75_2: 626363523
+      Raf_Kick 115x75_3: -997142968
+      Raf_Kick 115x75_4: -742730054
+      Raf_Kick 115x75_5: -1555725270
+      Raf_Kick 115x75_6: -1436042284
+      Raf_Kick 115x75_7: -2101282617
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-=======
-    nameFileIdTable: {}
-  spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   userData: 
   assetBundleName: 
   assetBundleVariant: 

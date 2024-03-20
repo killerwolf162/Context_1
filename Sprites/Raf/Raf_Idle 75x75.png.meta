@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: fbfad5fa7f7c63e4bb18dba53ea49ee6
-=======
-guid: e56fd694fa08c5648be9157d64288246
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -24,19 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-<<<<<<< HEAD
     flipGreenChannel: 0
-=======
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-<<<<<<< HEAD
   ignoreMipmapLimit: 0
-=======
-  ignoreMasterTextureLimit: 0
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -50,15 +39,11 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
   spriteMode: 2
-=======
-  spriteMode: 1
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -78,27 +63,21 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
-<<<<<<< HEAD
+  applyGammaDecoding: 1
   swizzle: 50462976
-=======
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
     ignorePlatformSupport: 0
-=======
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -106,15 +85,12 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
     ignorePlatformSupport: 0
-=======
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -122,29 +98,25 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
     ignorePlatformSupport: 0
-=======
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
     sprites:
     - serializedVersion: 2
       name: Raf_Idle 75x75_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 22
         y: 0
-        width: 75
-        height: 75
+        width: 32
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ab24e19da491e146b54a708bf2f78f4
-      internalID: 2119744965
+      spriteID: 9a7ded3055321eb44a6e950cc24992d1
+      internalID: -409615176
       vertices: []
       indices: 
       edges: []
@@ -162,10 +134,10 @@ TextureImporter:
       name: Raf_Idle 75x75_1
       rect:
         serializedVersion: 2
-        x: 75
+        x: 97
         y: 0
-        width: 75
-        height: 75
+        width: 32
+        height: 67
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3b40e26ff3cb0144b8efa7a5cf09036
-      internalID: 250941496
+      spriteID: ccf28336b36597647be9e34185e46daa
+      internalID: 27171524
       vertices: []
       indices: 
       edges: []
@@ -183,10 +155,10 @@ TextureImporter:
       name: Raf_Idle 75x75_2
       rect:
         serializedVersion: 2
-        x: 150
+        x: 172
         y: 0
-        width: 75
-        height: 75
+        width: 32
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a77f0f913deb1d24890f28fc8baf2030
-      internalID: 1794551241
+      spriteID: 2960e34af2f09c344bc4c971888b9ef2
+      internalID: -742983111
       vertices: []
       indices: 
       edges: []
@@ -204,10 +176,10 @@ TextureImporter:
       name: Raf_Idle 75x75_3
       rect:
         serializedVersion: 2
-        x: 225
+        x: 247
         y: 0
-        width: 75
-        height: 75
+        width: 32
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 842e49ffa7a19dc4d8ad919751037e26
-      internalID: -2106295698
+      spriteID: 12c926d90cf61ca4c8537f5a77efa3e6
+      internalID: -264317002
       vertices: []
       indices: 
       edges: []
@@ -225,10 +197,10 @@ TextureImporter:
       name: Raf_Idle 75x75_4
       rect:
         serializedVersion: 2
-        x: 300
+        x: 322
         y: 0
-        width: 75
-        height: 75
+        width: 32
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2b0e94a8924e094babddc8cdfd1b106
-      internalID: -1752760308
+      spriteID: ad6f7ce48f85b55488ce4a560c67bc19
+      internalID: 1306672290
       vertices: []
       indices: 
       edges: []
@@ -246,10 +218,10 @@ TextureImporter:
       name: Raf_Idle 75x75_5
       rect:
         serializedVersion: 2
-        x: 375
+        x: 397
         y: 0
-        width: 75
-        height: 75
+        width: 32
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,41 +229,31 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8f076c89765ccd41ba49dd684aa58b3
-      internalID: 1089501764
+      spriteID: 361e65483e215de44a0a6da7774cb4a0
+      internalID: -209680505
       vertices: []
       indices: 
       edges: []
       weights: []
-=======
-    sprites: []
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: f25eb3dc44bccde4ba3ecafde42c98b9
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
     nameFileIdTable:
-      Raf_Idle 75x75_0: 2119744965
-      Raf_Idle 75x75_1: 250941496
-      Raf_Idle 75x75_2: 1794551241
-      Raf_Idle 75x75_3: -2106295698
-      Raf_Idle 75x75_4: -1752760308
-      Raf_Idle 75x75_5: 1089501764
+      Raf_Idle 75x75_0: -409615176
+      Raf_Idle 75x75_1: 27171524
+      Raf_Idle 75x75_2: -742983111
+      Raf_Idle 75x75_3: -264317002
+      Raf_Idle 75x75_4: 1306672290
+      Raf_Idle 75x75_5: -209680505
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-=======
-    nameFileIdTable: {}
-  spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   userData: 
   assetBundleName: 
   assetBundleVariant: 

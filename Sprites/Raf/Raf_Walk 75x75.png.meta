@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: b7bb0af2c8ed1984e91ae8377b0876db
-=======
-guid: 900b2430c22b50e428427cac3290694a
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -24,19 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-<<<<<<< HEAD
     flipGreenChannel: 0
-=======
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-<<<<<<< HEAD
   ignoreMipmapLimit: 0
-=======
-  ignoreMasterTextureLimit: 0
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -50,15 +39,11 @@ TextureImporter:
     mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: 1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< HEAD
   spriteMode: 2
-=======
-  spriteMode: 1
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -78,27 +63,21 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
-<<<<<<< HEAD
+  applyGammaDecoding: 1
   swizzle: 50462976
-=======
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
-  cookieLightType: 0
+  cookieLightType: 2
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
     ignorePlatformSupport: 0
-=======
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -106,15 +85,12 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
     ignorePlatformSupport: 0
-=======
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -122,20 +98,16 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-<<<<<<< HEAD
     ignorePlatformSupport: 0
-=======
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< HEAD
     sprites:
     - serializedVersion: 2
       name: Raf_Walk 75x75_0
@@ -152,8 +124,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d00b6c4db05af5641a1c253b9e454116
-      internalID: -365650634
+      spriteID: d831c8bfad373d74ab64464dc7c1d005
+      internalID: -380269067
       vertices: []
       indices: 
       edges: []
@@ -173,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 389888f9d51fd424aa446e73ec90a1c7
-      internalID: 448747638
+      spriteID: 80b727b20204c514e8f52c9d736dfd6d
+      internalID: 992031193
       vertices: []
       indices: 
       edges: []
@@ -194,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cffb32896564ab640b11db7ef5a95ef6
-      internalID: 1424022949
+      spriteID: 9244a292237fbd14f92827f2d54c6b1d
+      internalID: 609499977
       vertices: []
       indices: 
       edges: []
@@ -215,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea1232e5f1819f947b9b3d66d378fe22
-      internalID: -1254872025
+      spriteID: f90cbd789468ccd439aa2ba2a6808449
+      internalID: 989861991
       vertices: []
       indices: 
       edges: []
@@ -236,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ff44e2a4bafa614abec7536deaf435d
-      internalID: -1748139313
+      spriteID: 593a834715cad8d4cafa9fc1ea63b2f3
+      internalID: -1547034286
       vertices: []
       indices: 
       edges: []
@@ -257,15 +229,12 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50277d59162cf1846b290d82dea67c82
-      internalID: 954477427
+      spriteID: 93f18f8d9d9362f4ba7e2c590f9a6cbe
+      internalID: -208832629
       vertices: []
       indices: 
       edges: []
       weights: []
-=======
-    sprites: []
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
     outline: []
     physicsShape: []
     bones: []
@@ -276,22 +245,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-<<<<<<< HEAD
     nameFileIdTable:
-      Raf_Walk 75x75_0: -365650634
-      Raf_Walk 75x75_1: 448747638
-      Raf_Walk 75x75_2: 1424022949
-      Raf_Walk 75x75_3: -1254872025
-      Raf_Walk 75x75_4: -1748139313
-      Raf_Walk 75x75_5: 954477427
+      Raf_Walk 75x75_0: -380269067
+      Raf_Walk 75x75_1: 992031193
+      Raf_Walk 75x75_2: 609499977
+      Raf_Walk 75x75_3: 989861991
+      Raf_Walk 75x75_4: -1547034286
+      Raf_Walk 75x75_5: -208832629
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-=======
-    nameFileIdTable: {}
-  spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
->>>>>>> 391e185486aedce4edad177a02b0fe7643d1c96c
   userData: 
   assetBundleName: 
   assetBundleVariant: 

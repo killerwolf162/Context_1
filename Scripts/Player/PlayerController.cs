@@ -24,9 +24,14 @@ public class PlayerController : MonoBehaviour
     private BoxCollider2D kick_hitbox;
     public BoxCollider2D special_hitbox;
 
+    private GameObject player_input1, player_input2;
+
     public Animator anim;
 
+    PlayerController other_player;
+
     private RafSpecialAttack raf_special;
+    private JoeriSpecialAttack joeri_special;
 
     [SerializeField]
     private float cool_down_timer = 0;
@@ -36,30 +41,42 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
+        player_input1 = GameObject.FindGameObjectWithTag("Player_1_Input");
+        player_input2 = GameObject.FindGameObjectWithTag("Player_2_Input");
+
         current_health = max_health;
         rig = GetComponent<Rigidbody2D>();
-
         anim = GetComponent<Animator>();
+        
+        if(this.gameObject.name == "Raf_1(Clone)" || this.gameObject.name == "Raf_2(Clone)")
+        {
+            raf_special = GetComponent<RafSpecialAttack>();
+        }
+        if (this.gameObject.name == "Joei_1(Clone)" || this.gameObject.name == "Joeri_2(Clone)")
+        {
+            joeri_special = GetComponent<JoeriSpecialAttack>();
+        }
+    }
 
+    private void Start()
+    {
         if (this.gameObject.tag == "Player")
         {
+            other_player = GameObject.FindGameObjectWithTag("Player_2").GetComponent<PlayerController>();
             punch_hitbox = GameObject.Find("Punch1_hitbox").GetComponent<BoxCollider2D>();
             kick_hitbox = GameObject.Find("Kick1_hitbox").GetComponent<BoxCollider2D>();
             special_hitbox = GameObject.Find("Special1_hitbox").GetComponent<BoxCollider2D>();
             health_bar = GameObject.FindGameObjectWithTag("HealthBar_P1").GetComponent<HealthBar>();
             special_bar = GameObject.FindGameObjectWithTag("SpecialBar_P1").GetComponent<SpecialBar>();
         }
-        if(this.gameObject.tag == "Player_2")
+        if (this.gameObject.tag == "Player_2")
         {
+            other_player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
             punch_hitbox = GameObject.Find("Punch2_hitbox").GetComponent<BoxCollider2D>();
             kick_hitbox = GameObject.Find("Kick2_hitbox").GetComponent<BoxCollider2D>();
             special_hitbox = GameObject.Find("Special2_hitbox").GetComponent<BoxCollider2D>();
             health_bar = GameObject.FindGameObjectWithTag("HealthBar_P2").GetComponent<HealthBar>();
             special_bar = GameObject.FindGameObjectWithTag("SpecialBar_P2").GetComponent<SpecialBar>();
-        }
-        if(this.gameObject.name == "Raf_1(Clone)" || this.gameObject.name == "Raf_2(Clone)")
-        {
-            raf_special = GetComponent<RafSpecialAttack>();
         }
 
         special_bar.set_special(current_special);
@@ -122,7 +139,7 @@ public class PlayerController : MonoBehaviour
         {
             punch_hitbox.enabled = true;
 
-            idle_timer = -0;
+            idle_timer = -0.25f;
             idle_timer -= Time.deltaTime;
             
             anim.SetInteger("AnimState", 2);
@@ -142,7 +159,7 @@ public class PlayerController : MonoBehaviour
         {
             kick_hitbox.enabled = true;
 
-            idle_timer = 0;
+            idle_timer = -0.2f;
             idle_timer -= Time.deltaTime;
             
             anim.SetInteger("AnimState", 3);
@@ -162,13 +179,20 @@ public class PlayerController : MonoBehaviour
         {
             special_hitbox.enabled = true;
 
-            idle_timer = 0;
+            idle_timer = -0.5f;
             idle_timer -= Time.deltaTime;
-            anim.SetInteger("AnimState", 4);
+
 
             if (raf_special != null)
             {
+                anim.SetInteger("AnimState", 4);
                 raf_special.raf_special_attack();
+            }
+
+            if (joeri_special != null)
+            {
+                joeri_special.joeri_special_attack();
+                this.gameObject.transform.position += new Vector3(0.1f, 0, 0);
             }
 
             cool_down_timer = 1;
@@ -192,10 +216,5 @@ public class PlayerController : MonoBehaviour
         }
 
     }
-
-
-
-
-
 }
 
