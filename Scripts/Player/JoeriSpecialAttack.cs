@@ -23,14 +23,18 @@ public class JoeriSpecialAttack : MonoBehaviour
         player_input2 = GameObject.FindGameObjectWithTag("Player_2_Input");
         controller = GetComponent<PlayerController>();
         collider = GetComponent<BoxCollider2D>();
+
+        scale_change = new Vector3(0.04f, 0.04f, 0);
+        position_change = new Vector3(0, 0.02f, 0);
+    }
+
+    private void Start()
+    {
         if (this.gameObject.tag == "Player")
             enemy_player = GameObject.FindGameObjectWithTag("Player_2");
 
         if (this.gameObject.tag == "Player_2")
             enemy_player = GameObject.FindGameObjectWithTag("Player");
-
-        scale_change = new Vector3(0.08f, 0.08f, 0);
-        position_change = new Vector3(0, 0.04f, 0);
     }
 
     public void joeri_special_attack()
@@ -40,7 +44,6 @@ public class JoeriSpecialAttack : MonoBehaviour
         player_input1.SetActive(false);
         player_input2.SetActive(false);
 
-        controller.idle_timer = 0;
         controller.anim.SetInteger("AnimState", 4);
 
         Instantiate(word_1, enemy_position + new Vector3(4, 20, 0), transform.rotation);
@@ -58,8 +61,8 @@ public class JoeriSpecialAttack : MonoBehaviour
 
     private IEnumerator falling_words()
     {
+        controller.cool_down_timer = 1;
         enemy_position = transform.position;
-        controller.idle_timer = 0;
         if(controller.anim.GetInteger("AnimState") != 4)
         {
             controller.anim.SetInteger("AnimState", 4);

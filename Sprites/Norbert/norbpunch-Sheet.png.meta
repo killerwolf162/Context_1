@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -108,7 +108,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: norbpunch-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 32
+        width: 75
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb3e74175be71f48a675002095ee325
+      internalID: 651615947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: norbpunch-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 32
+        width: 83
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dd0f7b633b8794881c395b7d4b70c8
+      internalID: 2049206678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: norbpunch-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 32
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e84c556a4405584cafaef5e2302ca0b
+      internalID: -662700404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: norbpunch-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 32
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b324700f0bc09343b9436a43c060bf1
+      internalID: 921196041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: norbpunch-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 32
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1da2d42eaafa074b984113ac7c94bea
+      internalID: 250419889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +224,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      norbpunch-Sheet_0: 21304488
+      norbpunch-Sheet_1: 651615947
+      norbpunch-Sheet_10: 713640267
+      norbpunch-Sheet_2: -487438799
+      norbpunch-Sheet_3: -167377792
+      norbpunch-Sheet_4: 2049206678
+      norbpunch-Sheet_5: -1490288335
+      norbpunch-Sheet_6: -662700404
+      norbpunch-Sheet_7: -989717317
+      norbpunch-Sheet_8: 921196041
+      norbpunch-Sheet_9: 250419889
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

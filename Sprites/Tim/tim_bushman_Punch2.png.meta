@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4b97948a73a128444833007c7a6a2b19
+guid: 71512e218d81d9442a7fb4ecea9bf7c3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tim bushman Punch_0
+      name: tim_bushman_Punch2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,26 +120,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      physicsShape:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de567d6f3637c634ca981cbbd1d69efe
-      internalID: -863633941
+      spriteID: 4f53a401c66934445990aa78d943d4aa
+      internalID: -194547516
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tim bushman Punch_1
+      name: tim_bushman_Punch2_1
       rect:
         serializedVersion: 2
         x: 90
@@ -149,26 +141,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      physicsShape:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1be141bb6d64cd04190ef3994ed767cf
-      internalID: -1291717566
+      spriteID: f5660571114e73e4db3fa8cb223e85c5
+      internalID: -1125193447
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tim bushman Punch_2
+      name: tim_bushman_Punch2_2
       rect:
         serializedVersion: 2
         x: 180
@@ -178,26 +162,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      physicsShape:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c9cab99d8898134e9b84a08ebaf2f27
-      internalID: 1754665776
+      spriteID: e0b13eb1546e6444d8cc46009e3440f6
+      internalID: -1425726853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tim bushman Punch_3
+      name: tim_bushman_Punch2_3
       rect:
         serializedVersion: 2
         x: 270
@@ -207,26 +183,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      physicsShape:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c02bf364c81acb4582736eda1320ed1
-      internalID: -1879143321
+      spriteID: a968742a4129088468b4720c298ad70b
+      internalID: -1753217926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tim bushman Punch_4
+      name: tim_bushman_Punch2_4
       rect:
         serializedVersion: 2
         x: 360
@@ -236,26 +204,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      physicsShape:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 536f369ad2cd7504492a97b29d2fef37
-      internalID: 57725761
+      spriteID: 74ac9f2500f880a46908b1803cb806ce
+      internalID: -897345802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tim bushman Punch_5
+      name: tim_bushman_Punch2_5
       rect:
         serializedVersion: 2
         x: 450
@@ -265,26 +225,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      physicsShape:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffb468f1cfbf9a845bf18dbe60ed41d2
-      internalID: 1367579128
+      spriteID: b6b631b2d1ec18641bab29c7a4eb1aa9
+      internalID: 1546101365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tim bushman Punch_6
+      name: tim_bushman_Punch2_6
       rect:
         serializedVersion: 2
         x: 540
@@ -294,26 +246,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      physicsShape:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebdae09a91397514194b31ca0ffd2ce9
-      internalID: -664869686
+      spriteID: 4de3c6a85cd00b7428a6e11e66db3de4
+      internalID: -1539757019
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tim bushman Punch_7
+      name: tim_bushman_Punch2_7
       rect:
         serializedVersion: 2
         x: 630
@@ -323,20 +267,12 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
-      physicsShape:
-      - - {x: 0, y: -37}
-        - {x: 45, y: 0}
-        - {x: 0, y: 37}
-        - {x: -45, y: 0}
+      outline: []
+      physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e0d821fa641f424590f0d0b9427a1ba
-      internalID: -841570139
+      spriteID: d84e5c1805bc2b540ab2893a6712faa5
+      internalID: -636397769
       vertices: []
       indices: 
       edges: []
@@ -352,14 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tim bushman Punch_0: -863633941
-      tim bushman Punch_1: -1291717566
-      tim bushman Punch_2: 1754665776
-      tim bushman Punch_3: -1879143321
-      tim bushman Punch_4: 57725761
-      tim bushman Punch_5: 1367579128
-      tim bushman Punch_6: -664869686
-      tim bushman Punch_7: -841570139
+      tim_bushman_Punch2_0: -194547516
+      tim_bushman_Punch2_1: -1125193447
+      tim_bushman_Punch2_2: -1425726853
+      tim_bushman_Punch2_3: -1753217926
+      tim_bushman_Punch2_4: -897345802
+      tim_bushman_Punch2_5: 1546101365
+      tim_bushman_Punch2_6: -1539757019
+      tim_bushman_Punch2_7: -636397769
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

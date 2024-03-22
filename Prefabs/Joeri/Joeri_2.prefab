@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Punch2_hitbox
       objectReference: {fileID: 0}
+    - target: {fileID: 4124518307978401144, guid: ae59b7e0612927f4d905392d57347b82, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.22
+      objectReference: {fileID: 0}
     - target: {fileID: 4687366915549793297, guid: ae59b7e0612927f4d905392d57347b82, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -72,6 +76,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6383565588198802846, guid: ae59b7e0612927f4d905392d57347b82, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.22
+      objectReference: {fileID: 0}
     - target: {fileID: 6520406444176357703, guid: ae59b7e0612927f4d905392d57347b82, type: 3}
       propertyPath: m_Name
       value: Special2_hitbox
@@ -104,5 +112,28 @@ PrefabInstance:
     - {fileID: 7623957923187693230, guid: ae59b7e0612927f4d905392d57347b82, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7965748293806880047, guid: ae59b7e0612927f4d905392d57347b82, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2779316892553530811}
   m_SourcePrefab: {fileID: 100100000, guid: ae59b7e0612927f4d905392d57347b82, type: 3}
+--- !u!1 &6200237042749604879 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7965748293806880047, guid: ae59b7e0612927f4d905392d57347b82, type: 3}
+  m_PrefabInstance: {fileID: 4073417228098695456}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2779316892553530811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6200237042749604879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96a2deccb761b24eb5645394719973b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  word_1: {fileID: 3454399317912733923, guid: c16939b919be3f04db058832a6e56684, type: 3}
+  word_2: {fileID: 882468194456033925, guid: a3669a996219cd6458ab3feb0cec71ca, type: 3}
+  word_3: {fileID: 4486742508601111807, guid: aad5b9643a6932f48ab9a338f2a71941, type: 3}

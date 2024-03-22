@@ -32,8 +32,8 @@ public class RafSpecialAttack : MonoBehaviour
         left_border.enabled = false;
         right_border.enabled = false;
 
-        controller.anim.SetInteger("AnimState", 4);
 
+        controller.anim.SetInteger("AnimState", 4);
         StartCoroutine(move_bike());  
     }
     
@@ -41,16 +41,16 @@ public class RafSpecialAttack : MonoBehaviour
     {
         if (this.gameObject.tag == "Player")
         {
-            controller.idle_timer = 0;
             this.gameObject.transform.position += new Vector3(-0.2f, 0, 0);
+            controller.anim.SetInteger("AnimState", 4);
             yield return new WaitForSeconds(0.002f);
             StartCoroutine(move_bike());
         }
 
         if (this.gameObject.tag == "Player_2")
         {
-            controller.idle_timer = 0;
             this.gameObject.transform.position += new Vector3(0.2f, 0, 0);
+            controller.anim.SetInteger("AnimState", 4);
             yield return new WaitForSeconds(0.002f);
             StartCoroutine(move_bike());
         }
@@ -63,8 +63,8 @@ public class RafSpecialAttack : MonoBehaviour
             StopAllCoroutines();
 
             controller.special_hitbox.enabled = false;
-            this.transform.position = start_position;
             controller.anim.SetInteger("AnimState", 0);
+            this.transform.position = start_position;
             player_input1.SetActive(true);
             player_input2.SetActive(true);
             collider.isTrigger = false;
