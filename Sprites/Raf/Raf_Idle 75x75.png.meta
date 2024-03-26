@@ -113,10 +113,10 @@ TextureImporter:
       name: Raf_Idle 75x75_0
       rect:
         serializedVersion: 2
-        x: 22
+        x: 0
         y: 0
-        width: 32
-        height: 66
+        width: 75
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,10 +134,10 @@ TextureImporter:
       name: Raf_Idle 75x75_1
       rect:
         serializedVersion: 2
-        x: 97
+        x: 75
         y: 0
-        width: 32
-        height: 67
+        width: 75
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: Raf_Idle 75x75_2
       rect:
         serializedVersion: 2
-        x: 172
+        x: 150
         y: 0
-        width: 32
-        height: 68
+        width: 75
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: Raf_Idle 75x75_3
       rect:
         serializedVersion: 2
-        x: 247
+        x: 225
         y: 0
-        width: 32
-        height: 68
+        width: 75
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,10 +197,10 @@ TextureImporter:
       name: Raf_Idle 75x75_4
       rect:
         serializedVersion: 2
-        x: 322
+        x: 300
         y: 0
-        width: 32
-        height: 66
+        width: 75
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,10 +218,10 @@ TextureImporter:
       name: Raf_Idle 75x75_5
       rect:
         serializedVersion: 2
-        x: 397
+        x: 375
         y: 0
-        width: 32
-        height: 65
+        width: 75
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
