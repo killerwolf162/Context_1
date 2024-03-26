@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 39f2bd4fb3e50d64ebd646eb42714f26
+guid: 8f66b290674ac684fbbf3a86c1d647c0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -110,106 +110,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JoeriSpecial_transition_Sheet_0
+      name: uiElements_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 150
-        height: 116
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+        x: 29
+        y: 138
+        width: 344
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59b12287e1df12143b1ec54e6a5cd523
-      internalID: 1600404118
+      spriteID: eb079d80e687db84e898ccf2c0e56ac4
+      internalID: -891151262
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JoeriSpecial_transition_Sheet_1
+      name: uiElements_1
       rect:
         serializedVersion: 2
-        x: 150
-        y: 0
-        width: 150
-        height: 116
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+        x: 17
+        y: 5
+        width: 167
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e048d65ef3806704bbe9243261a81d7f
-      internalID: -931661728
+      spriteID: 027a3cbdfc5597e4d83f45a1f28d7326
+      internalID: 914399225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JoeriSpecial_transition_Sheet_2
+      name: uiElements_2
       rect:
         serializedVersion: 2
-        x: 300
-        y: 0
-        width: 150
-        height: 116
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+        x: 219
+        y: 5
+        width: 167
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e4741118d8caa8469ba8817bba4ad2b
-      internalID: 15225075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JoeriSpecial_transition_Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 450
-        y: 0
-        width: 150
-        height: 116
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7e75dc10a1c14349bc1f6b471845c43
-      internalID: -552919332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JoeriSpecial_transition_Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 0
-        width: 150
-        height: 116
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f5f0e9b6013e6a4bb74d475482b90be
-      internalID: -2110307512
+      spriteID: d427cd99932485149b3d5a4b1f784c65
+      internalID: -1330073116
       vertices: []
       indices: 
       edges: []
@@ -225,11 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      JoeriSpecial_transition_Sheet_0: 1600404118
-      JoeriSpecial_transition_Sheet_1: -931661728
-      JoeriSpecial_transition_Sheet_2: 15225075
-      JoeriSpecial_transition_Sheet_3: -552919332
-      JoeriSpecial_transition_Sheet_4: -2110307512
+      uiElements_0: -891151262
+      uiElements_1: 914399225
+      uiElements_2: -1330073116
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

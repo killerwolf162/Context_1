@@ -5,7 +5,7 @@ using UnityEngine;
 public class TimSpecialAttack : MonoBehaviour
 {
 
-    GameObject player_input1, player_input2;
+    private GameObject player_controller1, player_controller2;
     GameObject enemy_player;
     PlayerController controller;
     SpriteRenderer sprite_render;
@@ -14,8 +14,8 @@ public class TimSpecialAttack : MonoBehaviour
 
     private void Awake()
     {
-        player_input1 = GameObject.FindGameObjectWithTag("Player_1_Input");
-        player_input2 = GameObject.FindGameObjectWithTag("Player_2_Input");
+        player_controller2 = GameObject.FindGameObjectWithTag("Player_2_Input");
+        player_controller1 = GameObject.FindGameObjectWithTag("Player_1_Input");
         sprite_render = GetComponent<SpriteRenderer>();
         controller = GetComponent<PlayerController>();
     }
@@ -35,15 +35,15 @@ public class TimSpecialAttack : MonoBehaviour
     {
         enemy_position = enemy_player.transform.position;
         start_position = this.transform.position;
-        collider.enabled = false;
         
-        player_input1.SetActive(false);
-        player_input2.SetActive(false);
+
+        player_controller1.GetComponent<PlayerInputHandler>().player_input.defaultActionMap = "empty";
+        player_controller2.GetComponent<PlayerInputHandler>().player_input.defaultActionMap = "empty";
 
         if (this.gameObject.tag == "Player")
-            this.transform.position = enemy_position + new Vector3(2.5f, 2.35f, 0);
+            this.transform.position = enemy_position + new Vector3(2.5f, 0, 0);
         if (this.gameObject.tag == "Player_2")
-            this.transform.position = enemy_position + new Vector3(-2.5f, 2.35f, 0);
+            this.transform.position = enemy_position + new Vector3(-2.5f, 0, 0);
 
         controller.anim.SetInteger("AnimState", 4);
         StartCoroutine(wait_for_anim());
@@ -57,9 +57,9 @@ public class TimSpecialAttack : MonoBehaviour
         yield return new WaitForSeconds(0.002f);
         controller.special_hitbox.enabled = false;
         
-        collider.enabled = true;
-        player_input1.SetActive(true);
-        player_input2.SetActive(true);
+      
+        player_controller1.GetComponent<PlayerInputHandler>().player_input.defaultActionMap = "Player";
+        player_controller2.GetComponent<PlayerInputHandler>().player_input.defaultActionMap = "Player";
         StopAllCoroutines();
         
     }

@@ -53,6 +53,8 @@ public class PlayerController : MonoBehaviour
         if (this.gameObject.name == "Raf_1(Clone)" || this.gameObject.name == "Raf_2(Clone)")
         {
             raf_special = GetComponent<RafSpecialAttack>();
+
+            this.transform.position = this.transform.position + new Vector3(0, 0.5f, 0);
         }
         if (this.gameObject.name == "Joeri_1(Clone)" || this.gameObject.name == "Joeri_2(Clone)")
         {
@@ -61,6 +63,7 @@ public class PlayerController : MonoBehaviour
         if (this.gameObject.name == "Tim_1(Clone)" || this.gameObject.name == "Tim_2(Clone)")
         {
             tim_special = GetComponent<TimSpecialAttack>();
+            this.transform.position = this.transform.position + new Vector3(0, -5.5f, 0);
         }
         if (this.gameObject.name == "Norbert_1(Clone)" || this.gameObject.name == "Norbert_2(Clone)")
         {
@@ -174,7 +177,7 @@ public class PlayerController : MonoBehaviour
     public void OnSpecial(InputAction.CallbackContext input)
     {
 
-        if (input.ReadValue<float>() > 0 && cool_down_timer <= 0.8f && current_special == 3)
+        if (input.ReadValue<float>() > 0 && cool_down_timer <= 0.8f && current_special >= 3)
         {
             
 

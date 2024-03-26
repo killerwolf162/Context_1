@@ -6,7 +6,7 @@ public class JoeriSpecialAttack : MonoBehaviour
 {
 
 
-    GameObject player_input1, player_input2;
+    private GameObject player_controller1, player_controller2;
     GameObject enemy_player;
     [SerializeField]
     GameObject word_1, word_2, word_3;
@@ -19,13 +19,10 @@ public class JoeriSpecialAttack : MonoBehaviour
 
     private void Awake()
     {
-        player_input1 = GameObject.FindGameObjectWithTag("Player_1_Input");
-        player_input2 = GameObject.FindGameObjectWithTag("Player_2_Input");
+        player_controller2 = GameObject.FindGameObjectWithTag("Player_2_Input");
+        player_controller1 = GameObject.FindGameObjectWithTag("Player_1_Input");
         controller = GetComponent<PlayerController>();
         collider = GetComponent<BoxCollider2D>();
-
-        scale_change = new Vector3(0.04f, 0.04f, 0);
-        position_change = new Vector3(0, 0.02f, 0);
     }
 
     private void Start()
@@ -40,9 +37,8 @@ public class JoeriSpecialAttack : MonoBehaviour
     public void joeri_special_attack()
     {
         enemy_position = enemy_player.transform.position;
-        start_position = this.transform.position;
-        player_input1.SetActive(false);
-        player_input2.SetActive(false);
+        player_controller1.GetComponent<PlayerInputHandler>().player_input.defaultActionMap = "empty";
+        player_controller2.GetComponent<PlayerInputHandler>().player_input.defaultActionMap = "empty";
 
         controller.anim.SetInteger("AnimState", 4);
 
@@ -54,7 +50,6 @@ public class JoeriSpecialAttack : MonoBehaviour
         word_2_to_move = GameObject.FindGameObjectWithTag("Word_2");
         word_3_to_move = GameObject.FindGameObjectWithTag("Word_3");
 
-        collider.enabled = false;
 
         StartCoroutine(falling_words());
     }
@@ -77,19 +72,13 @@ public class JoeriSpecialAttack : MonoBehaviour
         if (word_3_to_move != null)
             word_3_to_move.transform.position += new Vector3(0, -0.1f, 0);
 
-        this.transform.localScale += scale_change;
-        this.transform.position += position_change;
-
         if (word_1_to_move == null & word_2_to_move == null & word_3_to_move == null)
         {
             StopAllCoroutines();
             controller.special_hitbox.enabled = false;
             controller.anim.SetInteger("AnimState", 0);
-            player_input1.SetActive(true);
-            player_input2.SetActive(true);
-            this.transform.localScale = new Vector3(10, 10, 0);
-            this.transform.position = start_position;
-            collider.enabled = true;
+            player_controller1.GetComponent<PlayerInputHandler>().player_input.defaultActionMap = "Player";
+            player_controller2.GetComponent<PlayerInputHandler>().player_input.defaultActionMap = "Player";
         }
         else
         {

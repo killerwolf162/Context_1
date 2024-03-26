@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 39f2bd4fb3e50d64ebd646eb42714f26
+guid: 9b3f9370e16a64947b99b6a192e25020
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,106 +110,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JoeriSpecial_transition_Sheet_0
+      name: HEALTH AND SPECIAL_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 150
-        height: 116
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+        x: 224
+        y: 144
+        width: 144
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59b12287e1df12143b1ec54e6a5cd523
-      internalID: 1600404118
+      spriteID: ec1538212c73dd24482260648e7d25dd
+      internalID: -1854628920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: JoeriSpecial_transition_Sheet_1
+      name: HEALTH AND SPECIAL_1
       rect:
         serializedVersion: 2
-        x: 150
-        y: 0
-        width: 150
-        height: 116
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
+        x: 223
+        y: 8
+        width: 138
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e048d65ef3806704bbe9243261a81d7f
-      internalID: -931661728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JoeriSpecial_transition_Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 0
-        width: 150
-        height: 116
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e4741118d8caa8469ba8817bba4ad2b
-      internalID: 15225075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JoeriSpecial_transition_Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 450
-        y: 0
-        width: 150
-        height: 116
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7e75dc10a1c14349bc1f6b471845c43
-      internalID: -552919332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: JoeriSpecial_transition_Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 0
-        width: 150
-        height: 116
-      alignment: 9
-      pivot: {x: 0.5, y: 0.25}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f5f0e9b6013e6a4bb74d475482b90be
-      internalID: -2110307512
+      spriteID: 8b2a171b29631f7419084a14365f6843
+      internalID: -1684160428
       vertices: []
       indices: 
       edges: []
@@ -225,11 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      JoeriSpecial_transition_Sheet_0: 1600404118
-      JoeriSpecial_transition_Sheet_1: -931661728
-      JoeriSpecial_transition_Sheet_2: 15225075
-      JoeriSpecial_transition_Sheet_3: -552919332
-      JoeriSpecial_transition_Sheet_4: -2110307512
+      HEALTH AND SPECIAL_0: -1854628920
+      HEALTH AND SPECIAL_1: -1684160428
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
