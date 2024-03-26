@@ -8,7 +8,7 @@ public class TakeDamageSpecialAttacks : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Player_2"))
         {
-            other.gameObject.GetComponent<PlayerController>().take_damage(3);
+            other.gameObject.GetComponent<PlayerController>().take_damage(6);
         }
     }
 }
