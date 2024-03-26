@@ -96,11 +96,11 @@ public class PlayerController : MonoBehaviour
     {
         rig.transform.Translate(move * Time.deltaTime * move_speed);
 
-        if ( move.x != 0 && cool_down_timer < 0.8)
+        if ( move.x != 0 && cool_down_timer < 0.65F)
         {
             anim.SetInteger("AnimState", 1);
         }
-        if( move.x == 0 && cool_down_timer < 0.8)
+        if( move.x == 0 && cool_down_timer < 0.65F)
         {
             anim.SetInteger("AnimState", 0);
         }

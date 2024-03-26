@@ -110,148 +110,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlaceHolder_0
+      name: Tim_walk_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 1
         width: 52
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 69
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22f1f8ac511ddeb49934ca0729b5bce0
-      internalID: -669859296
+      spriteID: eb18d6b7a7f2e86408d79c559279a171
+      internalID: -1885666923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlaceHolder_1
+      name: Tim_walk_1
       rect:
         serializedVersion: 2
         x: 52
         y: 0
         width: 52
         height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 765d15dd21d1625468baf3c093872979
-      internalID: -331296818
+      spriteID: 73b7f54999fc580428b09f567832aa0b
+      internalID: -1343569265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlaceHolder_2
+      name: Tim_walk_2
       rect:
         serializedVersion: 2
         x: 104
-        y: 0
+        y: 2
         width: 52
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 68
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c62e3e6082da6c3428a4efb0a2c111d1
-      internalID: 1647700772
+      spriteID: 9095cbdde0099194bb319827df328786
+      internalID: -1894364343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlaceHolder_3
+      name: Tim_walk_3
       rect:
         serializedVersion: 2
         x: 156
-        y: 0
+        y: 1
         width: 52
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efefe5b528025fd4a9c9d35ed8816b14
-      internalID: -1113428293
+      spriteID: 3ec871c488c010945ac8212af0becd8a
+      internalID: 1701756961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlaceHolder_4
+      name: Tim_walk_4
       rect:
         serializedVersion: 2
         x: 208
-        y: 0
+        y: 1
         width: 52
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55da46f6c8865c94b98094e3799da25d
-      internalID: 1743138477
+      spriteID: 373fc71b6ad22624f8537f103f4ba786
+      internalID: 1674227065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlaceHolder_5
+      name: Tim_walk_5
       rect:
         serializedVersion: 2
         x: 260
         y: 0
         width: 52
         height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d60c792e8a17a694ab42ec7dda573c78
-      internalID: 1644740870
+      spriteID: 9fe696356b919194abf28b4573102ee8
+      internalID: 1330629470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlaceHolder_6
+      name: Tim_walk_6
       rect:
         serializedVersion: 2
         x: 312
-        y: 0
+        y: 1
         width: 52
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 69
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee6552e8ef18de54dbe673807b811dbb
-      internalID: 466605254
+      spriteID: 09f264d1b160e8c4c89898acbf0b30b7
+      internalID: 2112465820
       vertices: []
       indices: 
       edges: []
@@ -267,13 +267,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlaceHolder_0: -669859296
-      PlaceHolder_1: -331296818
-      PlaceHolder_2: 1647700772
-      PlaceHolder_3: -1113428293
-      PlaceHolder_4: 1743138477
-      PlaceHolder_5: 1644740870
-      PlaceHolder_6: 466605254
+      Tim_walk_0: -1885666923
+      Tim_walk_1: -1343569265
+      Tim_walk_2: -1894364343
+      Tim_walk_3: 1701756961
+      Tim_walk_4: 1674227065
+      Tim_walk_5: 1330629470
+      Tim_walk_6: 2112465820
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
