@@ -9,16 +9,25 @@ public class PlayerInputHandler : MonoBehaviour
     public GameObject player_prefab;
     private PlayerController controller;
     private PlayerInputHandler other_handler;
+    public PlayerInput player_input;
 
     [SerializeField]
     Vector3 start_position;
 
     private void Start()
     {
-        if(this.gameObject.tag == "Player_2_Input")
+        player_input = GetComponent<PlayerInput>();
+
+        if (this.gameObject.tag == "Player_2_Input")
+        {
             other_handler = GameObject.FindGameObjectWithTag("Player_1_Input").GetComponent<PlayerInputHandler>();
+        }
+            
         if (this.gameObject.tag == "Player_1_Input")
+        {
             other_handler = GameObject.FindGameObjectWithTag("Player_2_Input").GetComponent<PlayerInputHandler>();
+        }
+            
 
     }
     public void spawn_player()

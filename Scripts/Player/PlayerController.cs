@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     private BoxCollider2D kick_hitbox;
     public BoxCollider2D special_hitbox;
 
-    private GameObject player_input;
+    private GameObject player_controller;
 
     public Animator anim;
 
@@ -75,7 +75,7 @@ public class PlayerController : MonoBehaviour
             special_hitbox = GameObject.Find("Special1_hitbox").GetComponent<BoxCollider2D>();
             health_bar = GameObject.FindGameObjectWithTag("HealthBar_P1").GetComponent<HealthBar>();
             special_bar = GameObject.FindGameObjectWithTag("SpecialBar_P1").GetComponent<SpecialBar>();
-            player_input = GameObject.FindGameObjectWithTag("Player_1_Input");
+            player_controller = GameObject.FindGameObjectWithTag("Player_1_Input");
         }
         if (this.gameObject.tag == "Player_2")
         {
@@ -85,7 +85,7 @@ public class PlayerController : MonoBehaviour
             special_hitbox = GameObject.Find("Special2_hitbox").GetComponent<BoxCollider2D>();
             health_bar = GameObject.FindGameObjectWithTag("HealthBar_P2").GetComponent<HealthBar>();
             special_bar = GameObject.FindGameObjectWithTag("SpecialBar_P2").GetComponent<SpecialBar>();
-            player_input = GameObject.FindGameObjectWithTag("Player_2_Input");
+            player_controller = GameObject.FindGameObjectWithTag("Player_2_Input");
         }
 
         special_bar.set_special(current_special);
@@ -96,11 +96,11 @@ public class PlayerController : MonoBehaviour
     {
         rig.transform.Translate(move * Time.deltaTime * move_speed);
 
-        if ( move.x != 0 && cool_down_timer < 0.5)
+        if ( move.x != 0 && cool_down_timer < 0.8)
         {
             anim.SetInteger("AnimState", 1);
         }
-        if( move.x == 0 && cool_down_timer < 0.5)
+        if( move.x == 0 && cool_down_timer < 0.8)
         {
             anim.SetInteger("AnimState", 0);
         }
@@ -111,13 +111,13 @@ public class PlayerController : MonoBehaviour
             cool_down_timer -= Time.deltaTime;
         }
 
-        if( cool_down_timer > 0.5f)
+        if( cool_down_timer > 0.8f)
         {
-            player_input.SetActive(false);
+            player_controller.GetComponent<PlayerInputHandler>().player_input.defaultActionMap = "empty";
         }
-        else if(cool_down_timer < 0.5f)
+        else if(cool_down_timer < 0.8f)
         {
-            player_input.SetActive(true);
+            player_controller.GetComponent<PlayerInputHandler>().player_input.defaultActionMap = "Player";
         }
 
         if( current_health <= 0)
@@ -147,7 +147,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnPunch(InputAction.CallbackContext input)
     {
-        if (input.ReadValue<float>() > 0 && cool_down_timer <= 0)
+        if (input.ReadValue<float>() > 0 && cool_down_timer <= 0.8f)
         {
             punch_hitbox.enabled = true;
 
@@ -160,7 +160,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnKick(InputAction.CallbackContext input)
     {
-        if (input.ReadValue<float>() > 0 && cool_down_timer <= 0)
+        if (input.ReadValue<float>() > 0 && cool_down_timer <= 0.8f)
         {
             kick_hitbox.enabled = true;
             
@@ -174,9 +174,9 @@ public class PlayerController : MonoBehaviour
     public void OnSpecial(InputAction.CallbackContext input)
     {
 
-        if (input.ReadValue<float>() > 0 && cool_down_timer <= 0 && current_special == 3)
+        if (input.ReadValue<float>() > 0 && cool_down_timer <= 0.8f && current_special == 3)
         {
-            special_hitbox.enabled = true;
+            
 
             if (raf_special != null)
             {
@@ -187,11 +187,6 @@ public class PlayerController : MonoBehaviour
             if (joeri_special != null)
             {
                 joeri_special.joeri_special_attack();
-            }
-
-            if (joeri_special == null)
-            {
-                Debug.Log("no joeri special found");
             }
 
             else if (tim_special != null)
@@ -207,8 +202,11 @@ public class PlayerController : MonoBehaviour
             cool_down_timer = 1;
             current_special = 0;
             special_bar.set_special(current_special);
+            special_hitbox.enabled = true;
         }
-        
+        disable_hitbox_delay();
+
+
     }
 
     private IEnumerator disable_hitbox_delay()
@@ -216,6 +214,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         kick_hitbox.enabled = false;
         punch_hitbox.enabled = false;
+        special_hitbox.enabled = false;
     }
 
     public void take_damage(int damage)
