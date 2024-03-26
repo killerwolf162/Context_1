@@ -12,6 +12,7 @@ public class RafSpecialAttack : MonoBehaviour
 
     private void Awake()
     {
+        start_position = this.transform.position;
         player_controller2 = GameObject.FindGameObjectWithTag("Player_2_Input");
         player_controller1 = GameObject.FindGameObjectWithTag("Player_1_Input");
         controller = GetComponent<PlayerController>();
@@ -58,7 +59,7 @@ public class RafSpecialAttack : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player") || other.CompareTag("Player") || other.CompareTag("Destroy_Bike"))
+        if(/*other.CompareTag("Player") || other.CompareTag("Player") || */other.CompareTag("Destroy_Bike"))
         {
             StopAllCoroutines();
 

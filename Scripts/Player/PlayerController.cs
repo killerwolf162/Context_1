@@ -222,15 +222,33 @@ public class PlayerController : MonoBehaviour
 
     public void take_damage(int damage)
     {
-        if(move.x >= 0)
+        if (this.tag == "Player")
         {
-            current_health -= damage;
-            health_bar.set_health(current_health);
+
+            if (move.x <= 0)
+            {
+                current_health -= damage;
+                health_bar.set_health(current_health);
+            }
+            else if (move.x > 0)
+            {
+                current_special += 1;
+                special_bar.set_special(current_special);
+            }
         }
-        else if(move.x < 0)
+        if (this.tag == "Player_2")
         {
-            current_special += 1;
-            special_bar.set_special(current_special);
+
+            if (move.x >= 0)
+            {
+                current_health -= damage;
+                health_bar.set_health(current_health);
+            }
+            else if (move.x < 0)
+            {
+                current_special += 1;
+                special_bar.set_special(current_special);
+            }
         }
 
     }
